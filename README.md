@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Social-Network
 
-## Getting Started
+## Team Members
 
-First, run the development server:
+* Hayden Cleaver
+* Isaiah Keller
+* Junyoung Son
+* KC Hofstetter
+* Kris Dunning
+* Teresa Phillips
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Problem Domain
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This app allows users to access their favorite books, movies, and music and share with friends and family. To provide a platform for users to be able to share their interests with others, and only see content of that they choose. Users can keep track of all their favorite books, movies, and songs. They'll be able to add personalized notes for reference and edit their favorites to keep them up to date.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Links and Resources
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* [Team-Social-Media](https://github.com/Team-Social-Media/social-network) (GitHub)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* [back-end server url](http://xyz.com) (when applicable)
 
-## Learn More
+* [front-end application](http://xyz.com) (when applicable)
 
-To learn more about Next.js, take a look at the following resources:
+### Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### `.env` requirements (where applicable)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+NEXT_PUBLIC_MOVIE_API=<https://imdb-api.com/en/API/>
+NEXT_PUBLIC_MUSIC_API=<https://api.discogs.com/database/search?q=>
+NEXT_PUBLIC_BOOKS_API=<http://openlibrary.org/search.json?q=>
 
-## Deploy on Vercel
+*`DATABASE_PORT` - 43048
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*`DATABASE_URL` - <http://dpg-cdrbu4h4reb95u682v50-a.oregon-postgres.render.com/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### How to initialize/run your application (where applicable)
+
+- e.g. `npm start`
+
+#### How to use your library (where applicable)
+
+#### Features / Routes
+
+* Feature: For a user to signIn using an existing GitHub or Google account to be authenticated. It displays their photo and a welcome greeting with user name.
+
+* Feature: A user is able to access three different API's to view media content.
+
+* Feature: A user is able to add heart to favorite content.
+
+* Feature: User is able to leave review on content.
+
+- GET : `/hello` - specific route to hit
+
+#### Tests
+
+- How do you run tests?
+- Any tests of note?
+- Describe any tests that you did not complete, skipped, etc
+
+#### UML
+
+[Figma Whiteboard](https://www.figma.com/file/kWyXOwDU82DmGUER6qTyOl/Social-App?node-id=4%3A1521&t=cgeAqUb9rvjb8j99-1)
+
+#### References
+
+[Socket.io / chat feature](https://www.youtube.com/watch?v=tBr-PybP_9c&t=5353s)

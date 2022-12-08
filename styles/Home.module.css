@@ -8,24 +8,17 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.main-grid {
+  min-height: calc(100vh - 100px);
+  height: fit-content;
 }
 
 .footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  margin-top: auto;
 }
 
 .title a {
@@ -88,8 +81,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #FFB17A;
+  border-color: #FFB17A;
 }
 
 .card h2 {
